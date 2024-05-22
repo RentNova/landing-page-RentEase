@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#why-choose-us {
+    background-color: #a0f4dc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    margin-bottom: 20px;
+}
+
+#why-choose-us p {
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    text-align: center;
+    background-color: transparent; /* Transparente para camuflarse con el fondo */
+    box-shadow: none; /* Eliminar cualquier sombra que pueda estar presente */
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.service p {
+    color: #666;
+}
