@@ -1,0 +1,119 @@
+::-webkit-scrollbar {
+    width: 12px;
+    }  
+    ::-webkit-scrollbar-track {
+        background: #2389fc;
+    }  
+    ::-webkit-scrollbar-thumb {
+        background-color: #001F3F;
+        border-radius: 20px;
+    }
+    
+    *{    
+        box-sizing: border-box;
+    }
+    h1 {font-size: 64px;}
+    h2 {font-size: 32px;}
+    h3 {font-size: 16px;}
+    p {font-size: 14px;}
+
+    h1, h2, h3 {
+        margin: 0px;
+    }
+    button {
+        border-radius: 10px;
+        border-width: 0;
+        font-weight: 900;
+        color: white;
+        width: 113px;
+        height: 45px;
+        align-items: center;
+        background-color: #2389fc;
+    }
+    button p {
+        margin: 0;
+    }
+    button:hover {
+        background-color: #158EB5;
+        border-width: 0;
+    }
+    button:active {
+        background-color: #1A588B;
+        border-width: 0;
+    }
+
+    body{
+        scrollbar-width: thin;
+        scrollbar-color: #001F3F #2389fc;
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto";
+    }
+    header{
+        background-image: url("../img/Header.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        height: 1024px;
+    }
+    #header-nav {
+        position: fixed;
+        display: flex;
+        background-color: #001F3F;
+        width: calc(100% - 40px);
+        margin: 13px 20px;
+        padding: 8px 16px;
+        height: 82.75px;
+        border-radius: 80px;
+        align-items: center;
+        justify-content: flex-start;
+        z-index: 1000;
+    }
+
+    #header-nav a {
+        padding: 5px 0px;
+    }
+    #navbarNavDropdown{
+        margin: 0px 34px;
+    }
+    #navbarNavDropdown a {
+        text-decoration: none;
+        color: #2389FC;
+        font-size: 16px;
+        padding: 8px 0px;
+        text-align: center;
+        line-height: 0;
+    }
+    #navbarNavDropdown ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #navbarNavDropdown li {
+        padding: 0px 10px;
+        display: inline;
+    }
+    #Inicio{
+        margin: 0px 18px 0px auto;
+    }    
+    
+    .cta-content{
+        display: flex;
+        margin: 0;
+        padding: 280px 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .cta-text {
+        max-width: 70%;
+    }    
+    .cta-text > h1, .cta-text > h3 {
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .cta-button {
+        margin-top: 10px;
+    }
+    .cta-text > h1 > span {
+        color: #2389FC;
+    }
