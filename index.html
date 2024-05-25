@@ -9,46 +9,136 @@
 </head>
 <body>
     <header>
-        <h1>RentEase</h1>
+        <!-- Contenido del header -->
     </header>
 
     <main>
         <!-- Otras secciones -->
-        
+
         <section id="why-choose-us">
             <div class="container">
                 <h2>Why Choose Us</h2>
-                <p> Descubre, Alquila, Vive</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="services">
                     <div class="service">
                         <i class="fas fa-home"></i>
-                        <h3>Encuentra tu futura casa</h3>
-                        <p>te ayudamos a encontrar una nueva casa con nuestro sistema personalizado</p>
+                        <h3>Find your future home</h3>
+                        <p>We help you find a new home by offering a smart real estate experience</p>
                     </div>
                     <div class="service">
                         <i class="fas fa-user-tie"></i>
-                        <h3>Agentes con experiencia</h3>
-                        <p>Encuentra agentes con la mejor experiencia del mercado</p>
+                        <h3>Experienced agents</h3>
+                        <p>Find an experienced agent who knows your market best</p>
                     </div>
                     <div class="service">
                         <i class="fas fa-house-user"></i>
-                        <h3>Verificación de usuarios</h3>
-                        <p>Encuentra a los arrendadores y prepientarios seguros para tus nesesidades</p>
+                        <h3>Buy or rent homes</h3>
+                        <p>Millions of houses and apartments in your favourite cities</p>
                     </div>
                     <div class="service">
                         <i class="fas fa-list"></i>
-                        <h3>Agrega tus propiedades</h3>
-                        <p>Crea tu cuenta y lista tus propiedades de manera rapida y facil</p>
+                        <h3>List your own property</h3>
+                        <p>Sign up now and sell or rent your own properties</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        <section id="customer-testimonials">
+            <div class="container">
+                <div class="testimonials-content">
+                    <div class="testimonials-header">
+                        <h2>What our customers are saying about us?</h2>
+                        <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.</p>
+                        <div class="statistics">
+                            <div class="stat-item">
+                                <p class="highlight">10m+</p>
+                                <p>Happy People</p>
+                            </div>
+                            <div class="stat-item">
+                                <p class="highlight">4.88</p>
+                                <p>Overall rating</p>
+                                <div class="stars">
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-profile">
+                            <img src="\assets\Cameron.jpg" alt="Cameron Williamson" />
+                            <div>
+                                <p class="name">Cameron Williamson</p>
+                                <p class="title">Designer</p>
+                            </div>
+                        </div>
+                        <blockquote>
+                            <p>Searches for multiplexes, property comparisons, and the loan estimator. Works great. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </blockquote>
+                        <div class="testimonial-navigation">
+                            <button class="nav-button" id="prev-testimonial">&larr;</button>
+                            <button class="nav-button" id="next-testimonial">&rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Otras secciones -->
     </main>
 
     <footer>
         <!-- Contenido del footer -->
     </footer>
+
+    <script>
+        const testimonials = [
+            {
+                name: "Cameron Williamson",
+                title: "Designer",
+                image: "cameron.jpg",
+                quote: "Searches for multiplexes, property comparisons, and the loan estimator. Works great. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+            },
+            {
+                name: "John Doe",
+                title: "Developer",
+                image: "john.jpg",
+                quote: "This platform has transformed the way I manage my properties. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+            }
+            // Añadir más testimonios aquí
+        ];
+
+        let currentTestimonialIndex = 0;
+
+        const nameElement = document.querySelector('.testimonial-profile .name');
+        const titleElement = document.querySelector('.testimonial-profile .title');
+        const imageElement = document.querySelector('.testimonial-profile img');
+        const quoteElement = document.querySelector('blockquote p');
+
+        document.getElementById('prev-testimonial').addEventListener('click', () => {
+            currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) * testimonials.length % testimonials.length;
+            updateTestimonial();
+        });
+
+        document.getElementById('next-testimonial').addEventListener('click', () => {
+            currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+            updateTestimonial();
+        });
+
+        function updateTestimonial() {
+            const testimonial = testimonials[currentTestimonialIndex];
+            nameElement.textContent = testimonial.name;
+            titleElement.textContent = testimonial.title;
+            imageElement.src = testimonial.image;
+            quoteElement.textContent = testimonial.quote;
+        }
+
+        // Inicializar con el primer testimonio
+        updateTestimonial();
+    </script>
 </body>
 </html>
