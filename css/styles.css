@@ -8,7 +8,9 @@
         background-color: #001F3F;
         border-radius: 20px;
     }
-    
+    html {
+        scroll-behavior: smooth;
+    }
     *{    
         box-sizing: border-box;
     }
@@ -170,12 +172,18 @@
     }
     
     .team-member {
+        box-sizing: content-box;
         width: 200px;
         margin-bottom: 20px;
+        padding: 10px;
+        background-color: #001F3F;
+        color: #2389FC;
+        border-radius: 40px;
     }
     
     .team-member img {
-        width: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         object-fit: cover;
         object-position: center;
