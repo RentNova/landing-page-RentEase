@@ -8,31 +8,31 @@ const testimonials = [
     {
         name: "John Doe",
         title: "Propietario",
-        image: "../img/testimonials/john.jpg",
+        image: "img/testimonials/john.jpg",
         quote: "Esta plataforma ha transformado la forma en que gestiono mis propiedades. Me gusta poder conseguir inquilinos seguros y mantener aseguradas mis propiedades con buenas personas ."
     },
     {
         name: "Jane Smith",
         title: "Propietaria",
-        image: "../img/testimonials/jane.jpg",
+        image: "img/testimonials/jane.jpg",
         quote: "La plataforma es intuitiva y me ha ayudado a encontrar inquilinos confiables rápidamente. Definitivamente facilita el proceso de arrendamiento."
     },
     {
         name: "Michael Brown",
         title: "Arrendatario",
-        image: "../img/testimonials/michael.jpg",
+        image: "img/testimonials/michael.jpg",
         quote: "Encontré la casa perfecta para mí gracias a esta plataforma. El proceso fue sencillo y directo, y me sentí seguro durante todo el proceso."
     },
     {
         name: "Emily Davis",
         title: "Propietaria",
-        image: "../img/testimonials/emily.jpg",
+        image: "img/testimonials/emily.jpg",
         quote: "Publicar mis propiedades nunca ha sido tan fácil. La interfaz es amigable y he recibido muchas consultas de inquilinos potenciales de calidad."
     },
     {
         name: "Robert Wilson",
         title: "Arrendatario",
-        image: "../img/testimonials/robert.jpg",
+        image: "img/testimonials/robert.jpg",
         quote: "Mudarse a una nueva ciudad puede ser abrumador, pero esta plataforma hizo que encontrar una nueva casa fuera un proceso sin estrés. La recomiendo encarecidamente."
     }
 ];
