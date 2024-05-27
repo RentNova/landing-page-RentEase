@@ -344,7 +344,7 @@
 
     .testimonial {
         flex: 1;
-        padding: 20px;
+        padding: 20px 20px 0 20px;
         text-align: left;
         max-width: 400px;
         margin-left: auto;
@@ -388,7 +388,9 @@
 
     .nav-button {
         background-color: #f0f0f0;
+        color:#2389FC;
         border: none;
+        width: 50px;
         padding: 10px;
         margin-right: 10px;
         cursor: pointer;
