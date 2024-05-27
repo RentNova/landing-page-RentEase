@@ -117,3 +117,71 @@
     .cta-text > h1 > span {
         color: #2389FC;
     }
+
+    #demonstration-video {
+        text-align: center;
+        padding: 50px 0;
+        background-color: #f9f9f9;
+    }
+
+    #demonstration-video h2 {
+        background-color: #2389FC;
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px; 
+        display: inline-block;
+    }
+    #demonstration-video p {
+        font-size: 18px;
+        margin-bottom:40px;
+    }
+    .video-container {
+        display: flex;
+        justify-content: center;
+    }
+    #features {
+        text-align: center;
+        padding: 50px 0;
+        background-color: #f9f9f9;
+    }
+    
+    #features h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .features-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .features-item {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        width: 250px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .features-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 15px;
+
+    }
+    
+    .features-item h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .features-item p {
+        font-size: 16px;
+        color: #666;
+    }
+
