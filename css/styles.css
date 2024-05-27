@@ -1,4 +1,4 @@
-::-webkit-scrollbar {
+    ::-webkit-scrollbar {
     width: 12px;
     }  
     ::-webkit-scrollbar-track {
@@ -22,6 +22,7 @@
     h1, h2, h3 {
         margin: 0px;
     }
+
     button {
         border-radius: 10px;
         border-width: 0;
@@ -160,40 +161,6 @@
         margin: auto;
     }
     
-    #team h2{
-        padding-bottom: 40px;
-        color: #2389FC;
-    }
-
-    .team-members {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    
-    .team-member {
-        box-sizing: content-box;
-        width: 200px;
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: #001F3F;
-        color: #2389FC;
-        border-radius: 40px;
-    }
-    
-    .team-member img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        object-position: center;
-    }
-    
-    .team-member h3 {
-        margin-top: 10px;
-        line-height: normal;
-    }
-
     .mission-vision{
         position: relative;
         width: 40%;
@@ -226,3 +193,86 @@
     .vision-content img{
         background-color: #2389FC;
     }
+    
+    #team h2{
+        padding-bottom: 40px;
+        color: #2389FC;
+    }
+
+    .team-members {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .team-member {
+        box-sizing: content-box;
+        width: 200px;
+        margin-bottom: 20px;
+        padding: 0px 0px 10px 0px;
+        background-color: #001F3F;
+        color: #2389FC;
+        border-radius: 40px;
+    }
+    
+    .team-member img {
+        width: 100%;
+        height: 150px;
+        border-radius: 40px 40px 0px 0px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .team-member h3 {
+        margin-top: 10px;
+        line-height: normal;
+    }    
+
+    #why-choose-us {
+        background-color: #2389FC;
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    #why-choose-us h2 {
+        margin-bottom: 20px;
+        color: #001F3F;
+    }
+    
+    #why-choose-us p {
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    
+    .services {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .service {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 250px;
+        text-align: center;
+        background-color: transparent; /* Transparente para camuflarse con el fondo */
+        box-shadow: none; /* Eliminar cualquier sombra que pueda estar presente */
+    }
+    
+    .service i {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+    
+    .service h3 {
+        margin: 10px 0;
+        color: #001F3F;
+    }
+    
+    .service p {
+        color: #ffffff;
+    }
+
