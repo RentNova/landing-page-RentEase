@@ -226,3 +226,62 @@
     .vision-content img{
         background-color: #2389FC;
     }
+
+    .accordion {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: left;
+    }
+
+    .accordion h2 {
+        text-align: center;
+        padding-bottom: 40px;
+        color: #2389FC;
+    }
+    
+    details {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    summary {
+        background-color: #001F3F;
+        color: #fff;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        border-bottom: 1px solid #ccc;
+        user-select: none;
+    }
+    
+    summary:hover {
+        background-color: #0056b3;
+    }
+    
+    .content {
+        padding: 15px;
+        background-color: #f9f9f9;
+    }
+    
+    @media (max-width: 900px) {
+        .accordion {
+            padding: 10px;
+        }
+    
+        summary {
+            font-size: 16px;
+            padding: 10px;
+        }
+    
+        .content {
+            padding: 10px;
+        }
+    }
+    
