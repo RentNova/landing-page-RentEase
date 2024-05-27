@@ -3,18 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice STUDIO</title>
+    <title>RentEase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>RentEase</h1>
+        <nav id="header-nav">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="214px" height="41px">
+            </a>
+            <div id="navbarNavDropdown">
+                <ul>
+                    <li>
+                        <a href="#about-us">Acerca de</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">Testimonios</a>
+                    </li>
+                    <li>
+                        <a href="#Q&amp;A">Preguntas frecuentes</a>
+                    </li>
+                    <li>
+                        <a  href="#contact-info">Contáctanos</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="Inicio">
+                <button>
+                    <p>Iniciar sesión</p>
+                </button>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h1>Descubre, <span>Alquila</span>, Vive</h1>
+                    <p>Ya sea que estés buscando tu próximo hogar o quieras poner tu propiedad en alquiler, nuestra plataforma te facilita todo el proceso. Encuentra la propiedad perfecta o conecta con inquilinos de confianza de manera rápida y sencilla.</p>
+                    <button class="cta-button"><p>Empieza ahora</p></button>
+                </div>
+            </div>
+        </div>
     </header>
-
     <main>
-        <!-- Otras secciones -->
-        
+        <section id="about-us" class="container">
+            <div class="about-us-content">
+                <div class="section-title">
+                    <h2>Acerca de nosotros</h2>
+                </div>
+                <p>
+                    RentNova surge como respuesta a la creciente demanda de soluciones confiables y convenientes en el mercado inmobiliario, el nombre proviene de la combinación de las palabras en inglés “Rent” e “Innovation”, que significan “Alquiler” e “Innovación” respectivamente.
+                </p>
+                <p> 
+                    Nuestra startup ofrece un enfoque integral para conectar a propietarios y arrendatarios, priorizando la transparencia y la eficiencia en cada paso del proceso de alquiler.
+                </p>
+                <div class="about-us-section">
+                    <div class="mission-vision">
+                        <div class="mission-content">
+                            <div id="mission">
+                                <img src="img/mission.png" alt="mision">
+                            </div>
+                            <h3>Misión</h3>
+                            
+                            <div class="section-text">
+                                <p>
+                                    Revolucionar la forma en que se realiza el alquiler, ofreciendo una plataforma innovadora que simplifica y mejora la experiencia para propietarios y arrendatarios por igual, estableciéndonos como líderes en el mercado de soluciones de alquiler confiables y eficientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mission-vision"> 
+                        <div class="vision-content">
+                            <div id="vision">
+                                <img src="img/vision.png" alt="vision">
+                            </div>
+                            <h3>Visión</h3>
+                            
+                            <div class="section-text">
+                                <p>
+                                    Convertirnos en la principal autoridad en el sector de alquileres, siendo reconocidos a nivel global como la plataforma líder que define los estándares de excelencia en la experiencia de alquiler.
+                                </p>
+                            </div>
+                        </div>                       
+                    </div>    
+                </div>
+                
+                <div id="team">
+                    <h2>Nuestro equipo</h2>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img src="img/Team/Aaron.png" alt="Team Member 1" height="200px">
+                            <h3>Marcos Aaron Bedia Torres</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="img/Team/Alejandra.png" alt="Team Member 2">
+                            <h3>Alejandra Gallo Riofrío</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="img/Team/Alejandro.png" alt="Team Member 1" height="200px">
+                            <h3>Marco Alejandro Gutierrez Yamunaque</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="img/Team/Gabriel.png" alt="Team Member 1" height="200px">
+                            <h3>Gabriel Alonso Reyna Alvarado</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="img/Team/Yair.png" alt="Team Member 1" height="200px">
+                            <h3>Guido Yair Abel Jeri Saldaña</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="why-choose-us">
             <div class="container">
                 <h2>Why Choose Us</h2>
@@ -23,7 +124,7 @@
                     <div class="service">
                         <i class="fas fa-home"></i>
                         <h3>Encuentra tu futura casa</h3>
-                        <p>te ayudamos a encontrar una nueva casa con nuestro sistema personalizado</p>
+                        <p>Te ayudamos a encontrar una nueva casa con nuestro sistema personalizado</p>
                     </div>
                     <div class="service">
                         <i class="fas fa-user-tie"></i>
@@ -33,17 +134,16 @@
                     <div class="service">
                         <i class="fas fa-house-user"></i>
                         <h3>Verificación de usuarios</h3>
-                        <p>Encuentra a los arrendadores y prepientarios seguros para tus nesesidades</p>
+                        <p>Encuentra a los arrendadores y propietarios seguros para tus nesesidades</p>
                     </div>
                     <div class="service">
                         <i class="fas fa-list"></i>
                         <h3>Agrega tus propiedades</h3>
-                        <p>Crea tu cuenta y lista tus propiedades de manera rapida y facil</p>
+                        <p>Crea tu cuenta y lista tus propiedades de manera rápida y fácil</p>
                     </div>
                 </div>
             </div>
         </section>
-        
         <!-- Otras secciones -->
     </main>
 
