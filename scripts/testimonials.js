@@ -2,7 +2,7 @@ const testimonials = [
     {
         name: "Cameron Williamson",
         title: "Arrendatario",
-        image: "../img/testimonials/cameron.jpg",
+        image: "img/testimonials/cameron.jpg",
         quote: "Funciona genial. Es la mejor experiencia de alquiler que he tenido, la recomiendo a todo el mundo."
     },
     {
