@@ -276,3 +276,126 @@
         color: #ffffff;
     }
 
+    /* Estilos para la sección de testimonios de clientes */
+    #customer-testimonials {
+        padding: 50px 0;
+        background-color: #fff;
+    }
+
+    #customer-testimonials .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials-header {
+        flex: 1;
+        max-width: 400px; 
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
+    .testimonials-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: -40px; 
+    }
+
+    .testimonials-header h2 {
+        margin-bottom: 10px;
+    }
+
+    .testimonials-header p {
+        margin-bottom: 20px;
+    }
+
+    .statistics {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .stat-item {
+        text-align: left;
+        margin-right: 20px;
+    }
+
+    .statistics p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .statistics .highlight {
+        font-weight: bold;
+    }
+
+    .stars {
+        display: flex;
+    }
+
+    .stars span {
+        color: gold;
+        font-size: 18px;
+    }
+
+    .testimonial {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: 0; 
+    }
+
+    .testimonial-profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-profile img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+    .testimonial-profile .name {
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .testimonial-profile .title {
+        margin: 0;
+        color: #666;
+    }
+
+    blockquote {
+        font-style: italic;
+        margin: 0;
+    }
+
+    .testimonial-navigation {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .nav-button {
+        background-color: #f0f0f0;
+        border: none;
+        padding: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    .nav-button:hover {
+        background-color: #e0e0e0;
+    }
