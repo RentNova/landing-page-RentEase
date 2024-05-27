@@ -45,7 +45,6 @@ body {
 
 .service h3 {
     margin: 10px 0;
-    font-size: 18px;
 }
 
 .service p {
@@ -87,7 +86,6 @@ body {
 }
 
 .testimonials-header p {
-    color: #666;
     margin-bottom: 20px;
 }
 
@@ -103,12 +101,10 @@ body {
 
 .statistics p {
     margin: 10px 0;
-    color: #333;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .statistics .highlight {
-    font-size: 24px;
     font-weight: bold;
 }
 
@@ -138,9 +134,10 @@ body {
 
 .testimonial-profile img {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 .testimonial-profile .name {
@@ -155,7 +152,6 @@ body {
 
 blockquote {
     font-style: italic;
-    color: #666;
     margin: 0;
 }
 

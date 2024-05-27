@@ -52,11 +52,11 @@
                         <p>Nuestros valiosos clientes han compartido sus experiencias con nosotros a lo largo de los años. Sigue leyendo para ver lo que dicen sobre nuestros servicios</p>
                         <div class="statistics">
                             <div class="stat-item">
-                                <p class="highlight">10m+</p>
+                                <h3 class="highlight">10m+</h3>
                                 <p>Happy People</p>
                             </div>
                             <div class="stat-item">
-                                <p class="highlight">4.88</p>
+                                <h3 class="highlight">4.88</h3>
                                 <p>Overall rating</p>
                                 <div class="stars">
                                     <span>&#9733;</span>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="testimonial">
                         <div class="testimonial-profile">
-                            <img src="\assets\Cameron.jpg" alt="Cameron Williamson" />
+                            <img src="\assets\Cameron.jpg" alt="Testimonial" />
                             <div>
                                 <p class="name">Cameron Williamson</p>
                                 <p class="title">Designer</p>
@@ -95,50 +95,7 @@
         <!-- Contenido del footer -->
     </footer>
 
-    <script>
-        const testimonials = [
-            {
-                name: "Cameron Williamson",
-                title: "Designer",
-                image: "cameron.jpg",
-                quote: "Busca multiplex, compara propiedades y calcula préstamos. Funciona genial. Es la mejor experiencia de alquiler que e tenido la recomiendo a todo el mundo."
-            },
-            {
-                name: "John Doe",
-                title: "Developer",
-                image: "john.jpg",
-                quote: "Esta plataforma ha transformado la forma en que gestiono mis propiedades. Me gusta poder conseguir inquilinos seguros y mantener aseguradas mis propiedades con buenas personas ."
-            }
-            // Añadir más testimonios aquí
-        ];
-
-        let currentTestimonialIndex = 0;
-
-        const nameElement = document.querySelector('.testimonial-profile .name');
-        const titleElement = document.querySelector('.testimonial-profile .title');
-        const imageElement = document.querySelector('.testimonial-profile img');
-        const quoteElement = document.querySelector('blockquote p');
-
-        document.getElementById('prev-testimonial').addEventListener('click', () => {
-            currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) * testimonials.length % testimonials.length;
-            updateTestimonial();
-        });
-
-        document.getElementById('next-testimonial').addEventListener('click', () => {
-            currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
-            updateTestimonial();
-        });
-
-        function updateTestimonial() {
-            const testimonial = testimonials[currentTestimonialIndex];
-            nameElement.textContent = testimonial.name;
-            titleElement.textContent = testimonial.title;
-            imageElement.src = testimonial.image;
-            quoteElement.textContent = testimonial.quote;
-        }
-
-        // Inicializar con el primer testimonio
-        updateTestimonial();
-    </script>
+    
 </body>
+<script src="scripts/testimonials.js"></script>
 </html>
