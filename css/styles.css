@@ -118,6 +118,8 @@
         color: #2389FC;
     }
 
+    
+
 /* Section styles */
 #successful-projects {
     padding: 2rem 0;
@@ -162,9 +164,14 @@
     color: #666;
 }
 
+.project img {
+    height: 200px; /* Cambia este valor según tus preferencias */
+    width: 300px; /* Esto mantendrá la proporción original de la imagen */
+}
+
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #successful-projects .container {
-        width: 90%;
+        width: 100%;
     }
 }
