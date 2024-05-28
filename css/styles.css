@@ -132,8 +132,12 @@
         display: inline-block;
     }
     #demonstration-video p {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom:40px;
+    }
+
+    #demonstration-video video{
+        border-radius: 40px;
     }
     .video-container {
         display: flex;
@@ -145,9 +149,9 @@
         background-color: #f9f9f9;
     }
     
-    #features h3 {
-        font-size: 30px;
+    #features h2 {
         margin-bottom: 30px;
+        color: #2389FC;
     }
     
     .features-list {
@@ -175,8 +179,7 @@
 
     }
     
-    .features-item h4 {
-        font-size: 22px;
+    .features-item h3 {
         margin-bottom: 10px;
     }
     
